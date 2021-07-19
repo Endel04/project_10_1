@@ -12,17 +12,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-        <Button
+        <RadioButton
             android:id="@+id/radio_second"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Third 액티비티"/>
+            android:checked="true"
+            android:text="Second Activity"/>
 
-        <Button
-            android:id="@+id/radio_thrid"
-            android:layout_width="match_parent"
+        <RadioButton
+            android:id="@+id/radio_third"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Third 액티비티"/>
+            android:text="Third Activity"/>
     </RadioGroup>
 
     <Button
